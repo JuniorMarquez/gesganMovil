@@ -696,6 +696,9 @@ img {
     padding-left: 60px;
 }
 
+.pl160 {
+    padding-left: 18px;
+}
 .pr15 {
     padding-right: 15px;
 }
@@ -770,6 +773,7 @@ img {
 
 .pt100 {
     padding-top: 100px;
+    align-content: center;
 }
 
 .pt120 {
@@ -1623,8 +1627,8 @@ nav.top-nav-collapse {
 .explain .nav-tabs>li>a,
 .explain .nav-tabs>li>a:hover,
 .explain .nav-tabs>li>a:focus {
-    color: #58709d;
-    background-color: transparent;
+    color: #fff;
+    background-color: #e71a5e;
     border: none;
     border-radius: 20px;
     border: 1px solid #e1e8f0;
@@ -1636,9 +1640,23 @@ nav.top-nav-collapse {
 .explain .nav-tabs>li>a:hover:hover,
 .explain .nav-tabs>li>a:focus:hover {
     background-color: transparent;
-    background-image: -webkit-gradient(linear, left top, right top, from(#00cbd6), to(#0098d6));
-    background-image: linear-gradient(to right, #00cbd6 0%, #0098d6 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(#0098d6));
+    background-image: linear-gradient(to right, #fff 0%, #fff 100%);
+    color: #313c4f;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+
+.explain .nav-tabs>li.active>a,
+.explain .nav-tabs>li>a,
+.explain .nav-tabs>li>a:hover,
+.explain .nav-tabs>li>a:focus {
     color: #fff;
+    background-color: #e71a5e;
+    border: none;
+    border-radius: 20px;
+    border: 0px solid #e1e8f0;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -1647,8 +1665,8 @@ nav.top-nav-collapse {
 .explain .nav-tabs>li.active>a:hover,
 .explain .nav-tabs>li.active>a:focus {
     background-color: transparent;
-    background-image: -webkit-gradient(linear, left top, right top, from(#0098d6), to(#00cbd6));
-    background-image: linear-gradient(to right, #0098d6 0%, #00cbd6 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(#00cbd6));
+    background-image: linear-gradient(to right, #e71a5e 0%, #e71a5e 100%);
     color: #fff;
     border: 1px solid transparent;
 }
@@ -2460,7 +2478,7 @@ nav.top-nav-collapse {
     text-align: center;
     font-weight: bold;
     position: fixed;
-    bottom: 15px;
+    bottom: 40px;
     right: 40px;
     display: none;
     border-radius: 50%;
@@ -2471,7 +2489,7 @@ nav.top-nav-collapse {
 }
 
 #toTop:hover {
-    color: #58709d;
+    color: #c0ce30;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }

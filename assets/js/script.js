@@ -93,18 +93,21 @@
 
     var area = document.getElementById('area'),
         list = [
-            'ordeños',
-            'baños',
-            'partos /servicios',
-            'suministro de medicamentos',
-            'peso',
-            'suministro de almimento',
-            'tratamiento'
+
+            'Baños',
+            'Peso',
+            'Ordeños',
+            'Tratamientos',
+            'Servicios y partos',
+             'Suministro de alimentos',           
+            'Suministro de medicamentos'
+
+           
 
         ],
         count_li = 0,
         count = 0,
-        speed = 200;
+        speed = 60;
 
 
     function rewrite() {
