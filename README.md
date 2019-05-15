@@ -1,15 +1,15 @@
 ![GitHub Logo](http://www.gesgan.com.ve/128x128.gif)
 
-# Thetixs App :rocket: 
+# Gesgan :rocket: 
 
-## Online Booking Software System for Tour & Activity Operators
+## Aplicacion distribuida y descentralizada orientada al sector ganadero, gesión segura y eficáz
 
 
  [ [Official site](http://www.gesgan.com.ve) ] 
  [ [Docs](http://www.gesgan.com.ve/web/#/app/docs) ]
  ]
 
-## Features
+## Características
 - Ordeños
 - Baños
 - Medicamentos y vacunas
