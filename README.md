@@ -18,9 +18,11 @@
 - Tratamiento
 - Parto/Servicio
 
-Thetixs INC © 2017 - 2019
+Junior Márquez soHigh! © 2016 - 2019
 
 
 ![GitHub Logo](http://www.gesgan.com.ve/128x128.gif)
 
 
+git pull
+git fetch
